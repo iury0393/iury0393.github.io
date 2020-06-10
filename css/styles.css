@@ -10568,7 +10568,7 @@ img {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 30%;
+  width: 35%;
   padding: 0 10px;
   margin-top: 10px;
 }
@@ -10606,10 +10606,13 @@ div.row {
 
 .card-title-text {
   text-align: center;
+  margin-top: 5px;
+  font-family: Roboto, sans-serif;
 }
 
 .card-description-text {
   text-align: center;
+  font-family: Ubuntu;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
