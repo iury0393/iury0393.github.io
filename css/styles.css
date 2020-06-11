@@ -10571,7 +10571,7 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 .card {
   /*float: left;*/
@@ -10590,4 +10590,21 @@ img {
 
 .card-text {
   font-size: 85%;
+}
+.row::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.row::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.row::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+.row::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white; /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, .5);
 }
